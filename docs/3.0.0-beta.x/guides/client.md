@@ -133,7 +133,7 @@ And in your GitHub hook, you will have to replace `strapi.config.hook.github` by
 }
 ```
 
-**Path —** `./hooks/github/inde.js`
+**Path —** `./hooks/github/index.js`
 
 ```js
 const GitHubAPI = require('@octokit/rest');
